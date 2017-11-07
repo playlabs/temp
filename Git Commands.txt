@@ -1,0 +1,87 @@
+Git is a version control system for tracking changes in source code files and it can be used to keep track of changes in any set of files.
+As a distributed revision control system it is aimed at data integrity, support for distributed and non-linear workflows.
+
+
+version control/source control is the management of changes to documents, computer programs.
+Changes are usually identified by a number or letter code, termed the "version number", "version level". For example, an initial set of files is "version 1". When the first change is made, the resulting set is "version 2", and so on. 
+Each version is associated with a timestamp and the person making the change. 
+version can be compared, restored, and with some types of files, merged.
+
+
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   1. clone      Clone a repository into a new directory
+   2. init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   3. add        Add file contents to the index
+   4. mv         Move or rename a file, a directory, or a symlink
+   5. reset      Reset current HEAD to the specified state
+   6. rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   7. bisect     Use binary search to find the commit that introduced a bug
+   8. grep       Print lines matching a pattern
+   9. log        Show commit logs
+   10. show       Show various types of objects
+   11. status     Show the working tree status -- commit,diff,blame.
+
+grow, mark and tweak your common history
+   12. branch     List, create, or delete branches
+   13. checkout   Switch branches or restore working tree files
+   14. commit     Record changes to the repository
+   15. diff       Show changes between commits, commit and working tree, etc
+   16. merge      Join two or more development histories together
+   17. rebase     Reapply commits on top of another base tip
+   18. tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   19. fetch      Download objects and refs from another repository
+   20. pull       Fetch from and integrate with another repository or a local branch
+   21. push       Update remote refs along with associated objects
+   
+   
+   
+   
+   1. add        Add file contents to the index
+   2. bisect     Find by binary search the change that introduced a bug
+   3. branch     List, create, or delete branches
+   4. checkout   Checkout a branch or paths to the working tree
+   5. clone      Clone a repository into a new directory
+   6. commit     Record changes to the repository
+   7. diff       Show changes between commits, commit and working tree, etc
+   8. fetch      Download objects and refs from another repository
+   9. grep       Print lines matching a pattern
+   10. init       Create an empty Git repository or reinitialize an existing one
+   11. log        Show commit logs
+   12. merge      Join two or more development histories together
+   13. mv         Move or rename a file, a directory, or a symlink
+   14. pull       Fetch from and merge with another repository or a local branch
+   15. push       Update remote refs along with associated objects
+   16. rebase     Forward-port local commits to the updated upstream head
+   17. reset      Reset current HEAD to the specified state
+   18. rm         Remove files from the working tree and from the index
+   19. show       Show various types of objects
+   20. status     Show the working tree status
+   21. tag        Create, list, delete or verify a tag object signed with GPG
+
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+https://youte.be/cEFIFZDysZA
+
+git blame file
+git revert branch
+git apply patch.diff
+git am -3 pathc.mbox
+
+echo "# temp" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/sreenivasd/temp.git
+git push -u origin master
